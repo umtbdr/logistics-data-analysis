@@ -18,4 +18,4 @@ Lojistik operasyonlarında gerçekleşen gecikmelerin varış tarihlerine (ETA) 
 3. **Dinamik Takvim Yönetimi (ETA):** Tırların çıkış tarihlerine sistemdeki gecikme günleri (`timedelta`) eklenerek, güncel "Tahmini Varış Tarihi" sütununun algoritmik olarak oluşturulması.
 4. **Operasyonel Filtreleme:** Sadece belirli şartları sağlayan (Örn: Çıkış limanı İzmir olan ve gecikmesi sıfır olan) VIP teslimatların `loc` fonksiyonu ile izole edilmesi.
 5. **Raporlama ve Görselleştirme:** Limanlara göre toplam kârların `groupby` ile özetlenerek kurumsal kullanıma uygun Excel formatında dışa aktarılması ve Matplotlib ile Bar Chart olarak görselleştirilmesi.
-6. [Limanlara Göre Kâr Grafiği](grafik.png)
+6. ![Limanlara Göre Kâr Grafiği](grafik.png)
